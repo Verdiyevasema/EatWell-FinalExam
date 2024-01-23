@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+    padding: 0 5%;
+  }
+}
+header {
+  background-color: rgb(143, 143, 245);
+}
+header .header {
+  display: flex;
+  gap: 10rem;
+  align-items: center;
+  padding-top: 30px;
+}
+header .header h1 {
+  color: white;
+  font-size: 30px;
+  font-weight: 300;
+  padding-bottom: 13px;
+}
+header .header nav ul {
+  display: flex;
+}
+header .header nav ul li a {
+  margin-left: 40px;
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  font-weight: 300;
+}
+header .header nav ul li a:hover {
+  color: blue;
+}
+
+.sortBtn .sortPriceBtn {
+  padding: 5px 25px;
+  color: blue;
+  background-color: white;
+  border: 2px solid blue;
+}
+.sortBtn .sortPriceBtn:hover {
+  background-color: blue;
+  color: white;
+  border: 2px solid blue;
+  transition: all 500ms;
+}
+.sortBtn .sortNameBtn {
+  padding: 5px 25px;
+  color: blue;
+  background-color: white;
+  border: 2px solid blue;
+}
+.sortBtn .sortNameBtn:hover {
+  background-color: blue;
+  color: white;
+  border: 2px solid blue;
+  transition: all 500ms;
+}/*# sourceMappingURL=form.css.map */

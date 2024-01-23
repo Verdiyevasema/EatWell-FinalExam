@@ -1,0 +1,157 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1200px;
+}
+@media screen and (max-width: 600px) {
+  .container {
+    padding: 0 5%;
+  }
+}
+
+// HEADER
+
+header {
+  .header {
+    display: flex;
+    gap: 10rem;
+    align-items: center;
+    position: fixed;
+    z-index: 3;
+    width: 100%;
+    padding-top: 30px;
+    h1 {
+      color: white;
+      font-size: 30px;
+      font-weight: 300;
+      padding-bottom: 13px;
+    }
+    nav {
+      ul {
+        display: flex;
+        li {
+          a {
+            margin-left: 40px;
+            text-decoration: none;
+            color: rgb(204, 203, 203);
+            font-size: 18px;
+            font-weight: 300;
+            &:hover {
+              color: white;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+// Welcome To EatWell
+
+#eatWell-section {
+  background-image: url("../../img/bg_3\ \(1\).jpg");
+  width: 100%;
+  height: 100vh;
+  .eatWell {
+    padding-top: 18%;
+    padding-left: 21%;
+    .reservationBtn {
+      background-color: transparent;
+      border: 3px solid white;
+      color: white;
+      padding: 10px 35px;
+      margin-left: 27%;
+      &:hover {
+        background-color: white;
+        border: 3px solid white;
+        color: black;
+        padding: 10px 35px;
+        margin-left: 27%;
+        transition: all 500ms;
+      }
+    }
+    h1 {
+      color: white;
+      font-size: 70px;
+      font-weight: 700;
+      font-family: Georgia, "Times New Roman", Times, serif;
+    }
+    p {
+      color: rgb(216, 215, 215);
+      font-size: 17px;
+      padding-left: 12%;
+    }
+  }
+}
+
+// OUR STORY WELCOME
+#ourStory {
+  .ourStory {
+    display: flex;
+    .ourStory-left {
+      padding-top: 50px;
+      h4 {
+        font-size: 17px;
+        font-weight: 400;
+        color: rgb(155, 154, 154);
+      }
+      h1 {
+        font-family: Georgia, "Times New Roman", Times, serif;
+        font-size: 50px;
+      }
+      p {
+        color: rgb(155, 154, 154);
+      }
+      .ourStoryBtn {
+        padding: 12px 40px;
+        border: 1px solid rgb(155, 154, 154);
+        color: rgb(155, 154, 154);
+        &:hover {
+          color: white;
+          background-color: orange;
+          border: 1px solid orange;
+          transition: all 500ms;
+        }
+      }
+    }
+    .ourStory-right {
+      img {
+        width: 100%;
+        padding: 20px 0;
+      }
+    }
+  }
+}
+
+
+// DINAMIK SECTION
+#ourOffer {
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 2rem;
+    .cardImg {
+      img{
+        width: 100%;
+      }
+    }
+    .cardText {
+      h6 {
+        color: orange;
+        padding-top: 20px;
+        text-align: center;
+      }
+      h3{
+        text-align: center;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+      }
+    }
+  }
+}

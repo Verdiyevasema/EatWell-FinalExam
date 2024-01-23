@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"
+    ></script>
+    <script defer src="./assets/js/form.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./assets/scss/form.scss/form.css" />
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header>
+      <div class="container">
+        <div class="header">
+          <h1>EATWELL</h1>
+          <nav>
+            <ul>
+              <li><a href="./main.html">Home</a></li>
+              <li><a href="./form.html">Add</a></li>
+              <li><a href="./details.html">Details</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Offer</a></li>
+              <li><a href="#">Menu</a></li>
+              <li><a href="#">News</a></li>
+              <li><a href="#">Galery</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <!-- FORM -->
+    <div class="container">
+      <div class="searchSort">
+        <div class="searchInput">
+          <input type="search" placeholder="Search" class="search" />
+        </div>
+        <div class="sortBtn">
+          <button class="sortPriceBtn">Ascending</button>
+          <button class="sortNameBtn">Sort by name A</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <form>
+        <div class="form-group">
+          <input
+            type="text"
+            placeholder="Image"
+            class="form-control"
+            id="image"
+          />
+        </div>
+        <div class="form-group">
+          <input
+            type="text"
+            placeholder="Price"
+            class="form-control"
+            id="price"
+          />
+        </div>
+        <div class="form-group">
+          <input
+            type="text"
+            placeholder="Name"
+            class="form-control"
+            id="name"
+          />
+        </div>
+        <div class="form-group">
+          <input
+            type="text"
+            placeholder="Description"
+            class="form-control"
+            id="description"
+          />
+        </div>
+        <button class="btn btn-primary">Submit</button>
+      </form>
+
+      <div class="container">
+        <table class="table table-striped">
+          <thead>
+            <tr>
+              <th>Id</th>
+              <th>Image</th>
+              <th>Price</th>
+              <th>Name</th>
+              <th>Description</th>
+              <th>Edit & Delete</th>
+            </tr>
+          </thead>
+          <tbody>
+            <!-- <tr>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr> -->
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </body>
+</html>

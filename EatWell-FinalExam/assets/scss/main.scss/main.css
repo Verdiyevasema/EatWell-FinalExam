@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+    padding: 0 5%;
+  }
+}
+header .header {
+  display: flex;
+  gap: 10rem;
+  align-items: center;
+  position: fixed;
+  z-index: 3;
+  width: 100%;
+  padding-top: 30px;
+}
+header .header h1 {
+  color: white;
+  font-size: 30px;
+  font-weight: 300;
+  padding-bottom: 13px;
+}
+header .header nav ul {
+  display: flex;
+}
+header .header nav ul li a {
+  margin-left: 40px;
+  text-decoration: none;
+  color: rgb(204, 203, 203);
+  font-size: 18px;
+  font-weight: 300;
+}
+header .header nav ul li a:hover {
+  color: white;
+}
+
+#eatWell-section {
+  background-image: url("../../img/bg_3 (1).jpg");
+  width: 100%;
+  height: 100vh;
+}
+#eatWell-section .eatWell {
+  padding-top: 18%;
+  padding-left: 21%;
+}
+#eatWell-section .eatWell .reservationBtn {
+  background-color: transparent;
+  border: 3px solid white;
+  color: white;
+  padding: 10px 35px;
+  margin-left: 27%;
+}
+#eatWell-section .eatWell .reservationBtn:hover {
+  background-color: white;
+  border: 3px solid white;
+  color: black;
+  padding: 10px 35px;
+  margin-left: 27%;
+  transition: all 500ms;
+}
+#eatWell-section .eatWell h1 {
+  color: white;
+  font-size: 70px;
+  font-weight: 700;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+#eatWell-section .eatWell p {
+  color: rgb(216, 215, 215);
+  font-size: 17px;
+  padding-left: 12%;
+}
+
+#ourStory .ourStory {
+  display: flex;
+}
+#ourStory .ourStory .ourStory-left {
+  padding-top: 50px;
+}
+#ourStory .ourStory .ourStory-left h4 {
+  font-size: 17px;
+  font-weight: 400;
+  color: rgb(155, 154, 154);
+}
+#ourStory .ourStory .ourStory-left h1 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 50px;
+}
+#ourStory .ourStory .ourStory-left p {
+  color: rgb(155, 154, 154);
+}
+#ourStory .ourStory .ourStory-left .ourStoryBtn {
+  padding: 12px 40px;
+  border: 1px solid rgb(155, 154, 154);
+  color: rgb(155, 154, 154);
+}
+#ourStory .ourStory .ourStory-left .ourStoryBtn:hover {
+  color: white;
+  background-color: orange;
+  border: 1px solid orange;
+  transition: all 500ms;
+}
+#ourStory .ourStory .ourStory-right img {
+  width: 100%;
+  padding: 20px 0;
+}
+
+#ourOffer .cards {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 2rem;
+}
+#ourOffer .cards .cardImg img {
+  width: 100%;
+}
+#ourOffer .cards .cardText h6 {
+  color: orange;
+  padding-top: 20px;
+  text-align: center;
+}
+#ourOffer .cards .cardText h3 {
+  text-align: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}/*# sourceMappingURL=main.css.map */

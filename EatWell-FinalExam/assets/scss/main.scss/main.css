@@ -25,6 +25,10 @@ header .header {
   width: 100%;
   padding-top: 30px;
 }
+header .header .menuIcon {
+  display: none;
+  color: white;
+}
 header .header h1 {
   color: white;
   font-size: 30px;
@@ -45,6 +49,14 @@ header .header nav ul li a:hover {
   color: white;
 }
 
+@media screen and (max-width: 600px) {
+  .header .menuIcon {
+    display: block;
+  }
+  .header nav ul li {
+    display: none;
+  }
+}
 #eatWell-section {
   background-image: url("../../img/bg_3 (1).jpg");
   width: 100%;
@@ -81,6 +93,14 @@ header .header nav ul li a:hover {
   padding-left: 12%;
 }
 
+@media screen and (max-width: 600px) {
+  #eatWell-section .eatWell h1 {
+    font-size: 30px;
+  }
+  #eatWell-section .eatWell p {
+    font-size: 15px;
+  }
+}
 #ourStory .ourStory {
   display: flex;
   margin-top: 65px;
@@ -116,6 +136,15 @@ header .header nav ul li a:hover {
   padding: 20px 0;
 }
 
+@media screen and (max-width: 600px) {
+  #ourStory .ourStory {
+    display: flex;
+    flex-direction: column;
+  }
+  #ourStory .ourStory .ourStory-left h1 {
+    font-size: 35px;
+  }
+}
 #ourOffer {
   margin-top: 100px;
 }
@@ -171,6 +200,20 @@ header .header nav ul li a:hover {
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 
+@media screen and (max-width: 600px) {
+  #ourOffer .cards {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  #ourOffer .ourOffer-text h3 {
+    font-size: 15px;
+  }
+  #ourOffer .ourOffer-text h1 {
+    font-size: 30px;
+  }
+  #ourOffer .ourOffer-text p {
+    font-size: 17px;
+  }
+}
 #vokaliaSection {
   margin-top: 100px;
 }
@@ -222,6 +265,18 @@ header .header nav ul li a:hover {
   font-weight: 300;
 }
 
+@media screen and (max-width: 600px) {
+  #vokaliaSection .vokaliaSection .vokaliaSection-text h1 {
+    font-size: 21px;
+  }
+  #vokaliaSection .vokaliaSection .vokaliaSection-text p {
+    font-size: 13px;
+  }
+  #vokaliaSection .vokaliaSection .vokaliaSection-cards {
+    display: flex;
+    flex-direction: column;
+  }
+}
 #galerySection {
   margin-top: 100px;
 }
@@ -253,9 +308,19 @@ header .header nav ul li a:hover {
   width: 100%;
 }
 
+@media screen and (max-width: 600px) {
+  #galerySection .galery .galery-text h1 {
+    font-size: 40px;
+  }
+  #galerySection .galery .galery-text p {
+    font-size: 17px;
+  }
+  #galerySection .galery .galeryImage {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
 #footer {
   background-color: #222222;
-  height: 100vh;
 }
 #footer .footer-bootom {
   display: flex;
@@ -270,8 +335,16 @@ header .header nav ul li a:hover {
   margin-bottom: 30px;
   margin-left: 12px;
 }
+#footer .footer-bootom .footer-bottom-icon i:hover {
+  color: white;
+  transition: all 600ms;
+}
 #footer .footer-bootom .footer-bottom-text p {
   color: grey;
+}
+#footer .footer-bootom .footer-bottom-text p:hover {
+  color: white;
+  transition: all 600ms;
 }
 #footer .footer {
   display: grid;
@@ -286,4 +359,15 @@ header .header nav ul li a:hover {
 }
 #footer .footer p {
   color: grey;
+}
+#footer .footer p:hover {
+  color: white;
+  transition: all 600ms;
+}
+
+@media screen and (max-width: 600px) {
+  #footer .footer {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
 }/*# sourceMappingURL=main.css.map */

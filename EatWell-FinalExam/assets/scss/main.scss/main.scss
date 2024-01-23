@@ -26,6 +26,10 @@ header {
     z-index: 3;
     width: 100%;
     padding-top: 30px;
+    .menuIcon {
+      display: none;
+      color: white;
+    }
     h1 {
       color: white;
       font-size: 30px;
@@ -46,6 +50,20 @@ header {
               color: white;
             }
           }
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 600px) {
+  .header {
+    .menuIcon {
+      display: block;
+    }
+    nav {
+      ul {
+        li {
+          display: none;
         }
       }
     }
@@ -89,6 +107,19 @@ header {
   }
 }
 
+@media screen and (max-width: 600px) {
+  #eatWell-section {
+    .eatWell {
+      h1 {
+        font-size: 30px;
+      }
+      p{
+        font-size: 15px;
+      }
+    }
+  }
+}
+
 // OUR STORY WELCOME
 #ourStory {
   .ourStory {
@@ -124,6 +155,20 @@ header {
       img {
         width: 100%;
         padding: 20px 0;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #ourStory {
+    .ourStory {
+      display: flex;
+      flex-direction: column;
+      .ourStory-left {
+        h1 {
+          font-size: 35px;
+        }
       }
     }
   }
@@ -189,6 +234,25 @@ header {
   }
 }
 
+@media screen and (max-width: 600px) {
+  #ourOffer {
+    .cards {
+      grid-template-columns: repeat(1, 1fr);
+    }
+    .ourOffer-text {
+      h3 {
+        font-size: 15px;
+      }
+      h1 {
+        font-size: 30px;
+      }
+      p {
+        font-size: 17px;
+      }
+    }
+  }
+}
+
 // NEWS
 #vokaliaSection {
   margin-top: 100px;
@@ -243,6 +307,24 @@ header {
   }
 }
 
+@media screen and (max-width: 600px) {
+  #vokaliaSection {
+    .vokaliaSection {
+      .vokaliaSection-text {
+        h1 {
+          font-size: 21px;
+        }
+        p {
+          font-size: 13px;
+        }
+      }
+      .vokaliaSection-cards {
+        display: flex;
+        flex-direction: column;
+      }
+    }
+  }
+}
 // Gallery
 #galerySection {
   margin-top: 100px;
@@ -275,10 +357,27 @@ header {
   }
 }
 
+@media screen and (max-width: 600px) {
+  #galerySection {
+    .galery {
+      .galery-text {
+        h1{
+          font-size: 40px;
+        }
+        p{
+          font-size: 17px;
+        }
+      }
+      .galeryImage {
+        grid-template-columns: repeat(1, 1fr);
+      }
+    }
+  }
+}
+
 // FOOTER
 #footer {
   background-color: #222222;
-  height: 100vh;
   .footer-bootom {
     display: flex;
     justify-content: center;
@@ -291,11 +390,19 @@ header {
         color: grey;
         margin-bottom: 30px;
         margin-left: 12px;
+        &:hover {
+          color: white;
+          transition: all 600ms;
+        }
       }
     }
     .footer-bottom-text {
       p {
         color: grey;
+        &:hover {
+          color: white;
+          transition: all 600ms;
+        }
       }
     }
   }
@@ -311,6 +418,19 @@ header {
     }
     p {
       color: grey;
+      &:hover {
+        color: white;
+        transition: all 600ms;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #footer {
+    .footer {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
     }
   }
 }

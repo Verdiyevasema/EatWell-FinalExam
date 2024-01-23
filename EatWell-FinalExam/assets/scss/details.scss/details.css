@@ -45,6 +45,14 @@ header .header nav ul li a:hover {
   color: blue;
 }
 
+@media screen and (max-width: 600px) {
+  .header .menuIcon {
+    display: block;
+  }
+  .header nav ul li {
+    display: none;
+  }
+}
 .card {
   width: 500px;
   margin-top: 30px;
@@ -56,7 +64,6 @@ header .header nav ul li a:hover {
 
 #footer {
   background-color: #222222;
-  height: 100vh;
 }
 #footer .footer-bootom {
   display: flex;
@@ -87,4 +94,11 @@ header .header nav ul li a:hover {
 }
 #footer .footer p {
   color: grey;
+}
+
+@media screen and (max-width: 600px) {
+  #footer .footer {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
 }/*# sourceMappingURL=details.css.map */

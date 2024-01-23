@@ -1,16 +1,9 @@
 {
   "ourOffer": [
     {
-      "id": "1",
-      "image": "https://img.freepik.com/free-vector/gradient-coding-logo-template_23-2148809439.jpg?size=338&ext=jpg&ga=GA1.1.632798143.1705708800&semt=ais",
-      "price": 55,
-      "name": "Egg With Garlic",
-      "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus, voluptas accusamus. Voluptates laboriosam magnam aspernatur? Doloribus dolorem ut mollitia quaerat!"
-    },
-    {
       "id": "2",
-      "image": "./assets/img/offer_2.jpg",
-      "price": 51.5,
+      "image": "https://i.pinimg.com/originals/1c/54/f7/1c54f7b06d7723c21afc5035bf88a5ef.png",
+      "price": "111",
       "name": "Beef With Sausage",
       "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus, voluptas accusamus. Voluptates laboriosam magnam aspernatur? Doloribus dolorem ut mollitia quaerat!"
     },
@@ -68,6 +61,13 @@
       "image": "https://i.pinimg.com/originals/1c/54/f7/1c54f7b06d7723c21afc5035bf88a5ef.png",
       "price": 77,
       "name": "Jana Charles",
+      "description": "Though coffee is now a global commodity, it has a long history tied closely to food traditions around the Red Sea."
+    },
+    {
+      "id": "0388",
+      "image": "https://img.freepik.com/free-vector/gradient-coding-logo-template_23-2148809439.jpg?size=338&ext=jpg&ga=GA1.1.632798143.1705708800&semt=ais",
+      "price": "476",
+      "name": "To The Moon",
       "description": "Though coffee is now a global commodity, it has a long history tied closely to food traditions around the Red Sea."
     }
   ]

@@ -51,6 +51,21 @@ header {
   }
 }
 
+@media screen and (max-width: 600px) {
+  .header {
+    .menuIcon {
+      display: block;
+    }
+    nav {
+      ul {
+        li {
+          display: none;
+        }
+      }
+    }
+  }
+}
+
 // CARDS
 .card {
   width: 500px;
@@ -66,7 +81,6 @@ header {
 // FOOTER
 #footer {
   background-color: #222222;
-  height: 100vh;
   .footer-bootom {
     display: flex;
     justify-content: center;
@@ -99,6 +113,15 @@ header {
     }
     p {
       color: grey;
+    }
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #footer {
+    .footer {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
     }
   }
 }

@@ -18,7 +18,6 @@
 }
 
 // HEADER
-
 header {
   background-color: rgb(143, 143, 245);
   .header {
@@ -53,31 +52,77 @@ header {
 }
 
 // FORM
-.sortBtn {
-  .sortPriceBtn {
-    padding: 5px 25px;
-    color: blue;
-    background-color: white;
-    border: 2px solid blue;
-    &:hover {
-      background-color: blue;
-      color: white;
+.searchSort {
+  .search {
+    padding: 10px 55px;
+    margin-top: 30px;
+  }
+  .sortBtn {
+    .sortPriceBtn {
+      padding: 5px 25px;
+      color: blue;
+      background-color: white;
       border: 2px solid blue;
-      transition: all 500ms;
+      &:hover {
+        background-color: blue;
+        color: white;
+        border: 2px solid blue;
+        transition: all 500ms;
+      }
+    }
+
+    .sortNameBtn {
+      padding: 5px 25px;
+      color: blue;
+      background-color: white;
+      border: 2px solid blue;
+
+      &:hover {
+        background-color: blue;
+        color: white;
+        border: 2px solid blue;
+        transition: all 500ms;
+      }
     }
   }
+}
 
-  .sortNameBtn {
-    padding: 5px 25px;
-    color: blue;
-    background-color: white;
-    border: 2px solid blue;
-
-    &:hover {
-      background-color: blue;
+// FOOTER
+#footer {
+  background-color: #222222;
+  height: 100vh;
+  .footer-bootom {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 130px;
+    .footer-bottom-icon {
+      i {
+        font-size: 35px;
+        color: grey;
+        margin-bottom: 30px;
+        margin-left: 12px;
+      }
+    }
+    .footer-bottom-text {
+      p {
+        color: grey;
+      }
+    }
+  }
+  .footer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding-top: 10%;
+    gap: 3rem;
+    h3 {
       color: white;
-      border: 2px solid blue;
-      transition: all 500ms;
+      font-size: 15px;
+      font-family: Georgia, "Times New Roman", Times, serif;
+    }
+    p {
+      color: grey;
     }
   }
 }

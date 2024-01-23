@@ -1,5 +1,6 @@
 const cards = document.querySelector(".cards");
 const card = document.querySelector(".card");
+const loadMore = document.querySelector(".loadMore");
 let limit = 3;
 let arr = [];
 let data = [];
@@ -11,7 +12,7 @@ async function getData() {
   try {
     let res = await axios(`${BASE_URL}/ourOffer`);
     console.log(res.data);
-    drawCard(res.data);
+    drawCard(res.data.slice(0, limit));
     data = res.data;
     arr = res.data;
     copyData = res.data;
@@ -38,3 +39,10 @@ function drawCard(data) {
       </div>`;
   });
 }
+
+// Load More
+
+loadMore.addEventListener("click", function () {
+  limit += 3;
+  drawCard(copyData.slice(0, limit));
+});

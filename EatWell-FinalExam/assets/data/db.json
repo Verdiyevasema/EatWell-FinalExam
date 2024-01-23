@@ -3,79 +3,72 @@
     {
       "id": "1",
       "image": "https://img.freepik.com/free-vector/gradient-coding-logo-template_23-2148809439.jpg?size=338&ext=jpg&ga=GA1.1.632798143.1705708800&semt=ais",
-      "price": "53.5",
+      "price": 55,
       "name": "Egg With Garlic",
       "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus, voluptas accusamus. Voluptates laboriosam magnam aspernatur? Doloribus dolorem ut mollitia quaerat!"
     },
     {
       "id": "2",
       "image": "./assets/img/offer_2.jpg",
-      "price": 53.5,
+      "price": 51.5,
       "name": "Beef With Sausage",
       "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus, voluptas accusamus. Voluptates laboriosam magnam aspernatur? Doloribus dolorem ut mollitia quaerat!"
     },
     {
       "id": "3",
       "image": "./assets/img/offer_3.jpg",
-      "price": 53.5,
+      "price": 29,
       "name": "Beef Ribs",
       "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus, voluptas accusamus. Voluptates laboriosam magnam aspernatur? Doloribus dolorem ut mollitia quaerat!"
     },
     {
       "id": "4",
       "image": "./assets/img/menu_1.jpg",
-      "price": 53.5,
+      "price": 38,
       "name": "Beef With Sausage",
-      "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus, voluptas accusamus. Voluptates laboriosam magnam aspernatur? Doloribus dolorem ut mollitia quaerat!"
-    },
-    {
-      "id": "5",
-      "image": "./assets/img/menu_2.jpg",
-      "price": 53.5,
-      "name": "Beef Ribs",
       "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus, voluptas accusamus. Voluptates laboriosam magnam aspernatur? Doloribus dolorem ut mollitia quaerat!"
     },
     {
       "id": "6",
       "image": "./assets/img/offer_3.jpg",
-      "price": 53.5,
+      "price": 72,
       "name": "Egg With Garlic",
       "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus, voluptas accusamus. Voluptates laboriosam magnam aspernatur? Doloribus dolorem ut mollitia quaerat!"
     },
     {
       "id": "7",
       "image": "./assets/img/offer_1.jpg",
-      "price": 53.5,
+      "price": 36,
       "name": "Beef Ribs",
       "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus, voluptas accusamus. Voluptates laboriosam magnam aspernatur? Doloribus dolorem ut mollitia quaerat!"
     },
     {
       "id": "8",
       "image": "./assets/img/offer_3.jpg",
-      "price": 53.5,
+      "price": 55,
       "name": "Beef With Sausage",
       "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus, voluptas accusamus. Voluptates laboriosam magnam aspernatur? Doloribus dolorem ut mollitia quaerat!"
     },
     {
       "id": "9",
       "image": "./assets/img/offer_2.jpg",
-      "price": 53.5,
+      "price": 36,
       "name": "Beef Ribs",
       "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus, voluptas accusamus. Voluptates laboriosam magnam aspernatur? Doloribus dolorem ut mollitia quaerat!"
     },
     {
       "id": "10",
       "image": "./assets/img/menu_1.jpg",
-      "price": 53.5,
+      "price": 54,
       "name": "Egg With Garlic",
       "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus, voluptas accusamus. Voluptates laboriosam magnam aspernatur? Doloribus dolorem ut mollitia quaerat!"
     },
     {
       "id": "d530",
-      "image": "Incididunt numquam i",
-      "price": "191",
+      "image": "https://i.pinimg.com/originals/1c/54/f7/1c54f7b06d7723c21afc5035bf88a5ef.png",
+      "price": 77,
       "name": "Jana Charles",
-      "description": "Ex Nam qui dolores m"
+      "description": "Though coffee is now a global commodity, it has a long history tied closely to food traditions around the Red Sea."
     }
   ]
 }

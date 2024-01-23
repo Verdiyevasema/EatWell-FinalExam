@@ -1,6 +1,5 @@
 const details = document.querySelector(".details");
 const id = new URLSearchParams(window.location.search).get("id");
-
 const BASE_URL = "http://localhost:8020/ourOffer";
 
 async function getData() {
@@ -18,7 +17,7 @@ getData();
 function drawCard(data) {
   details.innerHTML = "";
   details.innerHTML = `
-        <div class="card">
+      <div class="card">
         <div class="cardImg">
           <img src="${data.image}" alt="" />
         </div>

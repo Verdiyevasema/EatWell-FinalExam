@@ -10,3 +10,95 @@
   margin: 0 auto;
   max-width: 1200px;
 }
+
+@media screen and (max-width: 600px) {
+  .container {
+    padding: 0 5%;
+  }
+}
+
+// HEADER
+header {
+  background-color: rgb(143, 143, 245);
+  .header {
+    display: flex;
+    gap: 10rem;
+    align-items: center;
+    padding-top: 30px;
+    h1 {
+      color: white;
+      font-size: 30px;
+      font-weight: 300;
+      padding-bottom: 13px;
+    }
+    nav {
+      ul {
+        display: flex;
+        li {
+          a {
+            margin-left: 40px;
+            text-decoration: none;
+            color: white;
+            font-size: 18px;
+            font-weight: 300;
+            &:hover {
+              color: blue;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+// CARDS
+.card {
+  width: 500px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  .cardImg {
+    img {
+      width: 100%;
+    }
+  }
+}
+
+// FOOTER
+#footer {
+  background-color: #222222;
+  height: 100vh;
+  .footer-bootom {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 130px;
+    .footer-bottom-icon {
+      i {
+        font-size: 35px;
+        color: grey;
+        margin-bottom: 30px;
+        margin-left: 12px;
+      }
+    }
+    .footer-bottom-text {
+      p {
+        color: grey;
+      }
+    }
+  }
+  .footer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding-top: 10%;
+    gap: 3rem;
+    h3 {
+      color: white;
+      font-size: 15px;
+      font-family: Georgia, "Times New Roman", Times, serif;
+    }
+    p {
+      color: grey;
+    }
+  }
+}

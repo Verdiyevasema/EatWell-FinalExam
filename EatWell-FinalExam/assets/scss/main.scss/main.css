@@ -83,9 +83,10 @@ header .header nav ul li a:hover {
 
 #ourStory .ourStory {
   display: flex;
+  margin-top: 65px;
 }
 #ourStory .ourStory .ourStory-left {
-  padding-top: 50px;
+  padding-top: 80px;
 }
 #ourStory .ourStory .ourStory-left h4 {
   font-size: 17px;
@@ -115,10 +116,47 @@ header .header nav ul li a:hover {
   padding: 20px 0;
 }
 
+#ourOffer {
+  margin-top: 100px;
+}
+#ourOffer .loadMore {
+  margin-top: 35px;
+  margin-left: 30px;
+  padding: 12px 40px;
+  border: 1px solid blue;
+  color: blue;
+}
+#ourOffer .loadMore:hover {
+  color: white;
+  background-color: orange;
+  border: 1px solid orange;
+  transition: all 500ms;
+}
+#ourOffer .ourOffer-text {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+#ourOffer .ourOffer-text h3 {
+  color: grey;
+  font-size: 17px;
+  font-weight: 400;
+}
+#ourOffer .ourOffer-text h1 {
+  font-size: 60px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+#ourOffer .ourOffer-text p {
+  color: grey;
+  font-size: 20px;
+  font-weight: 300;
+}
 #ourOffer .cards {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   gap: 2rem;
+  margin-top: 40px;
 }
 #ourOffer .cards .cardImg img {
   width: 100%;
@@ -131,4 +169,121 @@ header .header nav ul li a:hover {
 #ourOffer .cards .cardText h3 {
   text-align: center;
   font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+#vokaliaSection {
+  margin-top: 100px;
+}
+#vokaliaSection .vokaliaSection .vokaliaSection-cards {
+  display: flex;
+  gap: 3rem;
+}
+#vokaliaSection .vokaliaSection .vokaliaSection-cards img {
+  width: 100%;
+}
+#vokaliaSection .vokaliaSection .vokaliaSection-cards h1 {
+  font-size: 23px;
+  font-weight: 400;
+  margin-top: 30px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+#vokaliaSection .vokaliaSection .vokaliaSection-cards p {
+  color: grey;
+}
+#vokaliaSection .vokaliaSection .vokaliaSection-cards .readMoreBtn {
+  padding: 7px 15px;
+  margin-left: 35%;
+  border: none;
+  color: white;
+  background-color: orange;
+}
+#vokaliaSection .vokaliaSection .vokaliaSection-cards .readMoreBtn:hover {
+  padding: 7px 15px;
+  margin-left: 35%;
+  border: none;
+  color: white;
+  background-color: orangered;
+  transition: all 500ms;
+}
+#vokaliaSection .vokaliaSection .vokaliaSection-text {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 40px;
+}
+#vokaliaSection .vokaliaSection .vokaliaSection-text h1 {
+  font-size: 60px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+#vokaliaSection .vokaliaSection .vokaliaSection-text p {
+  color: grey;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+#galerySection {
+  margin-top: 100px;
+}
+#galerySection .galery {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 40px;
+}
+#galerySection .galery .galery-text {
+  margin-bottom: 40px;
+}
+#galerySection .galery .galery-text h1 {
+  font-size: 60px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+#galerySection .galery .galery-text p {
+  color: grey;
+  font-size: 20px;
+  font-weight: 300;
+}
+#galerySection .galery .galeryImage {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.2rem;
+}
+#galerySection .galery .galeryImage img {
+  width: 100%;
+}
+
+#footer {
+  background-color: #222222;
+  height: 100vh;
+}
+#footer .footer-bootom {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 130px;
+}
+#footer .footer-bootom .footer-bottom-icon i {
+  font-size: 35px;
+  color: grey;
+  margin-bottom: 30px;
+  margin-left: 12px;
+}
+#footer .footer-bootom .footer-bottom-text p {
+  color: grey;
+}
+#footer .footer {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding-top: 10%;
+  gap: 3rem;
+}
+#footer .footer h3 {
+  color: white;
+  font-size: 15px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+#footer .footer p {
+  color: grey;
 }/*# sourceMappingURL=main.css.map */

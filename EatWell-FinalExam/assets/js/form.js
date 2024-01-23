@@ -7,7 +7,6 @@ const tbody = document.querySelector("tbody");
 let arr;
 let data = [];
 let editId = null;
-
 const BASE_URL = "http://localhost:8020";
 
 async function getData() {
@@ -59,7 +58,6 @@ form.addEventListener("submit", async function (e) {
 });
 
 // SEARCH
-
 searchInput.addEventListener("input", function (e) {
   let filtered = arr.filter((item) =>
     item.name.toLocaleLowerCase().includes(e.target.value.toLocaleLowerCase())
@@ -95,18 +93,16 @@ sortNameBtn.addEventListener("click", function () {
 
 // DELETE
 async function deleteProduct(id, btn) {
-  if (confirm("Silmek istediyinize eminsinizmi?")) {
+  if (confirm("Silmek istediyinize eminsiniz?")) {
     btn.closest("tr");
     await axios.delete(`${BASE_URL}/ourOffer/${id}`);
   }
 }
 
 // EDIT
-
 async function editProduct(id) {
   editId = id;
   let res = await axios(`${BASE_URL}/ourOffer/${id}`);
-
   allInputs[0].value = res.data.image;
   allInputs[1].value = res.data.price;
   allInputs[2].value = res.data.name;
